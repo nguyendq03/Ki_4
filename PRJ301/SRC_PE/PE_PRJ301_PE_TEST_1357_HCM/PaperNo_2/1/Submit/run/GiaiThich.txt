@@ -1,0 +1,2 @@
+1/copy file .war trong thư mục dist của PE_PRJ301 đổi tên thành .jar
+2/copy paste vào đây

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Add a New Employee</h1>
+        <form action="EmployeeURL" method="post">
+            <input type="hidden" name="service" value="insertEmployee">
+            Enter Last Name: <input type="text" name="lastName" required><br>
+            Enter First Name: <input type="text" name="firstName" required><br>
+            Enter Title: <input type="text" name="title" required><br>
+            Enter Title of Courtesy: <input type="text" name="titleOfCourtesy" required><br>
+            Enter Birth Date: <input type="text" name="birthDate" required><br>
+            Enter Hire Date: <input type="text" name="hireDate" required><br>
+            Enter Address: <input type="text" name="address" required><br>
+            Enter City: <input type="text" name="city" required><br>
+            Enter Region: <input type="text" name="region" required><br>
+            Enter Postal Code: <input type="text" name="postalCode" required><br>
+            Enter Country: <input type="text" name="country" required><br>
+            Enter Home Phone: <input type="text" name="homePhone" required><br>
+            Enter Extension: <input type="text" name="extension" required><br>
+            Enter Photo: <input type="text" name="photo" required><br>
+            Enter Notes: <input type="text" name="notes" required><br>
+            Enter Reports To: <input type="text" name="reportsTo" required><br>
+            Enter Photo Path: <input type="text" name="photoPath" required><br>
+            <input type="submit" value="Add Employee">
+            <input type="reset" value="Clear">
+        </form>
+    </body>
+</html>

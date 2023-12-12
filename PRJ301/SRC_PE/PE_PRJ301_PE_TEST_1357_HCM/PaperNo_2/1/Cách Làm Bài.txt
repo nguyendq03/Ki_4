@@ -1,0 +1,36 @@
+*Lưu Ý* 
++ forget hết wifi trừ FPT_Exam
++ Lưu thư mục làm bài ngoài ổ đĩa (Tức đường dẫn C:\, E:\, F:\ gì đó,... ) cho dễ truy cập
++ close all project trong Netbeans
+
+1/ Tải thư mục làm bài, và mở đề lên
+2/ Mở Netbeans và open project bài đã tải -> clean and build
+3/ Chuột phải vào project ResolveProblem(cuối đếm lên 1 dòng trên properties), add đường dẫn đến file sqljdbc4.jar để sửa lỗi
+4/ Mở Script.sql trong thư mục làm bài --> 1.Tô đậm CREATE DATABASE [UserManagement] --> Execute
+ 		     			   2.Tô đậm USE [UserManagement] 	     --> Execute
+                     			   3.Tô đậm từ CREATE TABLE đến hết          --> Execute
+	****
+	Cơ bản thì đã xong việc tạo DB cơ bản cho bài,
+	nhưng nếu bạn muốn xem nội dung Database thì:
+	1.chuột phải Databases bên thanh bên trái chọn refresh
+	2.đúp chuột vào UserManagement
+	3.đúp chuột vào Tables
+	4.chuột phải vào dbo.tblUsers:
+	-Chọn Design để xem cấu hình
+	-Chọn Edit top 200 row để xem bên trong (userID, password, fullName,....) 
+	***
+5/ Quay lại Netbeans và bắt đầu code
+6/ Code mình đã làm phần 1 (4 điểm)
+	***
+	để chạy code:
+	1. Chuột phải vào PE_PRJ301
+	2. Clean and build
+	3. Deploy
+	4. Mở Services --> Servers -->Apacha Tomcat --> Web Applications --> chuột phải vào PE_PRJ301 --> open on browser
+	5. Tận hưởng
+	***
+
+7/ Nộp bài các bạn tạo thư mục Submit, trong thư mục Submit tạo 2 thư mục run và src (vào đi mình có chỉ cách lấy thư mục để nộp)
+Khi nộp sẽ dẫn đường dẫn đến cái Submit này
+
+8/ Chúc các bạn thi tốt!!!

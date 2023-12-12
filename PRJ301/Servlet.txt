@@ -1,0 +1,5 @@
+Servlet là API của java để tạo các ứng dụng web
+Servlet mạnh mẽ và chịu tải tốt
+Support nhiều  interface và class trong lập trình web
+
+Serverlet request: chứa client gửi lên server

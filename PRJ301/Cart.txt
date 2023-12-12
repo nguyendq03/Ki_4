@@ -1,0 +1,10 @@
+insertCart(done)
+viewCart(chưa hiển thị trên viewcart)
+updateCart(done)
+removeCart(làm xong phần  DAO)
+sign out
+check out
+login(done)
+sign up(done)
+view product(done)
+view prodcutDetail(done)

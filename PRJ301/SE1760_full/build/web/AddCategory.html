@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Add a New Category</h1>
+        <form action="CategoryURL" method="post">
+            <input type="hidden" name="service" value="insertCategory">
+            Enter Category Name: <input type="text" name="categoryName" required><br>
+            Enter Description: <textarea name="description" required></textarea><br>
+            Enter Picture URL: <input type="text" name="picture" required><br>
+            <input type="submit" value="Add Category">
+            <input type="reset" value="Clear">
+        </form>
+    </body>
+</html>

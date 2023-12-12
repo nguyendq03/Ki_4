@@ -1,0 +1,3 @@
+nhap roi luu vao session and lay du lieu session ra
+list
+view list by ID

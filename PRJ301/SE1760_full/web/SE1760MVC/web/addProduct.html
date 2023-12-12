@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <center>
+        <h1>Add new a Product</h1>
+        <form action="ProductURL" method="post">
+            <input type="hidden" name="service" value="insertProduct">
+            Enter ProductName:<input type="text" name="name"/></br>
+            Enter SuppliedID:
+            <select name="supID">
+                <option value="1">Exotic Liquids</option>
+                <option value="2">New Orleans Cajun Delights</option>
+                <option value="3">Grandma Kelly's Homestead</option>
+            </select></br>
+             Enter CategoryID: <select name="cateID">
+                <option value="1">Beverages</option>
+                <option value="2">Condiments</option>
+                <option value="3">Confections</option>
+            </select></br>
+            Enter QuantityPerUnit:<input type="text" name="QuantityPerUnit"/></br>
+            Enter UnitePrice:<input type="number" name="UnitePrice"/></br>
+            Enter UnitsInStock:<input type="number" name="UnitsInStock"/></br>
+            Enter UnitsOnOrder:<input type="number" name="UnitsOnOrder"/></br>
+            Enter ReorderLevel:<input type="number" name="ReorderLevel"/></br>
+            Enter Discontinued:
+            <input type="radio" name="Discontinued" value="1"/> continued
+            <input type="radio" name="Discontinued" value="0"/> discontinued
+            </br>
+            <input type="submit" value="add Product"/>
+            <input type="reset" value="Clear">
+        </form>
+    </center>
+
+    </body>
+</html>
